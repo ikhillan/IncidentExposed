@@ -30,4 +30,6 @@ type_list = df['Type'].tolist()
 disposition_list = df['Disposition'].tolist()
 address_list = df['Address'].tolist()   
 
+# df.to_csv(r'C:\Users\arcad\OneDrive\Desktop\Bitcamp23\api_avoider.csv')
+
 print(df)
