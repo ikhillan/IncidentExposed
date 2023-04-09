@@ -1,3 +1,5 @@
+# run before creating map in main2.py to webscrape umd incident reports and put data into dataframes to feed into the map
+
 from bs4 import BeautifulSoup
 import requests
 import csv
@@ -30,6 +32,7 @@ type_list = df['Type'].tolist()
 disposition_list = df['Disposition'].tolist()
 address_list = df['Address'].tolist()   
 
-# df.to_csv(r'C:\Users\arcad\OneDrive\Desktop\Bitcamp23\api_avoider.csv')
+
+# df.to_csv(r'api_avoider.csv') # specify path to write api_avoider to
 
 print(df)

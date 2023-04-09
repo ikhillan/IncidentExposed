@@ -42,6 +42,6 @@ def create_dataframe(csv_file):
         
         
     # return values    
-    df['Latitute'] = lat_list
+    df['Latitude'] = lat_list
     df['Longitude'] = lon_list 
     return df, lat_list, lon_list
