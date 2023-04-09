@@ -9,7 +9,7 @@ def create_dataframe(csv_file):
     # puts all entries in the address column into a list to make calls to the api
     address_list = df['Address'].tolist()
 
-    API_KEY = 'AIzaSyDVunIoaoPSSKIzWzCimvFPlKQe0EJ54Zs'
+    API_KEY = '' # use API key here
     base_url = 'https://maps.googleapis.com/maps/api/geocode/json?'
 
     lat_list = []
