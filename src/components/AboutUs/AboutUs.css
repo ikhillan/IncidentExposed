@@ -1,0 +1,73 @@
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  background: lavender;
+  border-radius: 20px;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
+
+.team-member h2 {
+  text-decoration: underline;
+  font-size: 35px;
+  font-weight: 900;
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.team-member h3 {
+  text-decoration: underline;
+  font-size: 35px;
+  font-weight: 900;
+  color: #333;
+  margin-right: 200px;
+  /* Add right margin to create space for the image */
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.team-member h4 {
+  font-size: 25px;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+.team-member p {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.team-member a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.team-member a:hover {
+  text-decoration: underline;
+}
+
+.repo p {
+  text-align: center;
+  margin: 40px auto;
+  font-size: 30px;
+}
+
+.repo a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.repo a:hover {
+  text-decoration: underline;
+}
